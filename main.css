@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+    margin: 0;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+body{
+    background: #fafafa;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+header{
+    background: url(./images/headerback.jpg) no-repeat;
+    background-attachment:fixed;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.overlay {
+    background-color: rgba(252, 252, 249, 0.738);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-primary-2{
+    background: #ff4500;
+}
+.btn-primary-2{
+    background: #ff4500;
+    color: #fff;
+}
+.color-primary-2{
+    color: orangered;
+}
+.color-secondary-2{
+    color: rgb(11, 218, 211);
+}
+.navbar{
+    background-color: #ff4500 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f8f8;
+    font-weight: 500;
+}
+a{
+    color: #f8f8f8 !important;  
+}
+.overlay-text{
+    padding-left: 50px;
+    padding-top: 50px;
+    color: rgb(140, 136, 136);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 15%;
+}
+.overlay-text p{
+    width: 700px;
+}
+.title{
+    margin: 40px;
+}
+.col-md-4,.col-md-3 {
+    margin-bottom: 2em;
+    /* margin-top: 2em; */
+}
+.title h2{
+    text-align: center;
+    color: orangered;
+}
+.picture img{
+    border-radius: 100%;
+}
+small{
+    text-align: right;
+}
+.citation {
+    border-left: 3px solid orangered;
+    padding: 40px;
+}
+.portfolio .card{
+    border: none;
+}
+.portfolio .card img{
+    width:100%;
+    height:280px
+}
+.blog .card, nav{
+    box-shadow: 2px 2px 50px 3px rgba(201,190,190,0.75);
+    -webkit-box-shadow: 2px 2px 50px 3px rgba(201,190,190,0.75);
+    -moz-box-shadow: 2px 2px 50px 3px rgba(201,190,190,0.75);
+}
+.blog .card img{
+    height: 200px;
+}
+.team .card {
+    border: none;
+}
+.team .card-body {
+    padding: 0px;
+}
+.team .card-body small{
+    margin-left: 10px;
+}
+.team .card .card-title{
+    background: orangered;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.contact{
+    text-align: center;
+}
+.contact .contact-left{
+    margin-top: 50px;
+}
+.contact .social i{
+    color: orangered;
+    font-size: 20px;
+    margin: 10px; ;
+}
+.contact form input{
+    background: #fff;
+}
+footer{
+    margin-top: 10px;
+    text-align: center;
+    background: rgb(254, 223, 183);
+    padding: 5px;
+}
+ /* Media Query */
+
+@media screen and (max-width: 780px) {
+    .overlay-text {
+        padding: 10px;
+        /* font-size: 25px; */
+    }
+    .overlay-text p{
+        width: 300px;
+    }
+   
+  }
+
